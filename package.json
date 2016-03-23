@@ -1,0 +1,40 @@
+{
+  "name": "wrapper-plugin-template",
+  "version": "0.0.1",
+  "description": "A template project for Vigour.io native plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-tape-runner **/__tests__/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigour-io/wrapper-plugin-template.git"
+  },
+  "keywords": [
+    "vigour",
+    "wrapper",
+    "native",
+    "plugin",
+    "template"
+  ],
+  "author": "Vigour",
+  "contributors": [
+    "Thomas Vervest <thomas@squarewolf.nl> (http://www.squarewolf.nl)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vigour-io/wrapper-plugin-template/issues"
+  },
+  "homepage": "https://github.com/vigour-io/wrapper-plugin-template#readme",
+  "dependencies": {
+    "vigour-config": "^1.0.0",
+    "vigour-env": "^2.0.7",
+    "vigour-wrapper-bridge": "^1.0.10"
+  },
+  "devDependencies": {
+    "babel-tape-runner": "^2.0.1",
+    "sinon": "^1.17.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  }
+}
